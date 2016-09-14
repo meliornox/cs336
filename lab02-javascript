@@ -10,6 +10,7 @@
   *     - print greeting method
   *
   */
+ "use strict";
  
  //Exercise 2.1: Person object prototype
  class Person {
