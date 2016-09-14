@@ -36,7 +36,7 @@
          
          //Compare the month values, if the month is less than the birth month then their birthday hasn't happened yet this year so it
          //doesn't count
-         if (numberMagnitude(dateToday, 10000) < numberMagnitude(birthDate, 10000) {
+         if (numberMagnitude(dateToday, 10000) < numberMagnitude(birthDate, 10000)) {
              age--;
          }
          
