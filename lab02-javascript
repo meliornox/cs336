@@ -85,7 +85,7 @@
          this.major = major;
      }
      greet() {
-         console.log("I'm a student);
+         console.log("I'm a student");
      }
  }
  
