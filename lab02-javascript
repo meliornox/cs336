@@ -50,7 +50,7 @@
      addFriend(friend) {
          this.friends.push(friend);
      }
-     greet {
+     greet() {
          console.log("I'm a person");
      }
  }
@@ -84,7 +84,7 @@
          super(name, birthdate, friends);
          this.major = major;
      }
-     greet {
+     greet() {
          console.log("I'm a student);
      }
  }
