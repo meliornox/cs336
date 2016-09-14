@@ -31,18 +31,18 @@
          let birthDate = this.birthday;
          
          //Get rid of the day value
-         dateToday = dateToday - numberMagnitude(dateToday, 1000000) * 1000000;
-         birthDate = birthDate - numberMagnitude(birthDate, 1000000) * 1000000;
+         dateToday = dateToday - dateToday % 1000000;
+         birthDate = birthDate - birthDate % 1000000;
          
          //Compare the month values, if the month is less than the birth month then their birthday hasn't happened yet this year so it
          //doesn't count
-         if (numberMagnitude(dateToday, 10000) < numberMagnitude(birthDate, 10000)) {
+         if ((dateToday / 10000) < (birthDate / 10000)) {
              age--;
          }
          
          //Get rid of the month value
-         dateToday = dateToday - numberMagnitude(dateToday, 10000) * 10000;
-         birthDate = birthDate - numberMagnitude(birthDate, 10000) * 10000;
+         dateToday = dateToday - dateToday % 10000;
+         birthDate = birthDate - birthDate % 10000;
          
          age = age + (dateToday - birthDate);
          return age;
