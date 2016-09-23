@@ -1,0 +1,8 @@
+Express.js and Node.js both operate in Java, but Express.js is a web framework for Node.js that makes it easier to work with Node.js.  
+
+package.json holds the metadata for the project, and it gives that information to npm so it can identify the project and its dependencies.
+
+Static files are presented exactly as stored, as opposed to an application.
+
+It does continue to serve up the Hello World! message, but it gets overwritten by index.html.
+
