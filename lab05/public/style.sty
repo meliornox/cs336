@@ -1,0 +1,96 @@
+//border color
+color = black
+//border margin
+margin = 0px
+//element padding
+padding = 30px
+
+li
+    //makes the list not-bulleted
+    list-style-type none
+
+body
+    font 24px Helvetica
+    //purpleish background
+    background #391a4c
+
+#main
+    min-height 450px
+    margin margin
+    //no padding for main, if set to padding the middle boxes will separate from the top and bottom
+    padding 0px
+    display flex
+    //put things in rows
+    flex-flow row
+
+article
+    margin margin
+    padding padding
+    //sets the border between boxes
+    border 2px solid color
+    //greenish-mustard color
+    background #dddd88
+    flex 3 1 60%
+    order 2
+
+nav
+aside
+    margin margin
+    padding padding
+    //sets the border between boxes
+    border 2px solid color
+    //blue-green color
+    background #5fcebd
+    flex 1 6 20%
+
+nav
+    order 1
+    text-align right
+
+aside
+    font-style italic
+    order 3
+
+h1
+footer
+    display block
+    margin margin
+    padding padding
+    min-height 60px
+    //sets the border between boxes
+    border 2px solid color
+    //gold color
+    background #f2c248
+
+footer
+    font-size 10px
+
+    /* If the window is too narrow to support three columns */
+@media all and (max-width 640px) 
+    #main
+    #page 
+        //make a comlumn format
+        flex-direction column
+
+    #main
+        min-height 0px
+
+    nav
+        text-align left
+
+    article
+    nav
+    aside
+        /* Return them to document order */
+        order 0
+
+    article
+        max-height 200px
+
+    nav
+    aside
+    header
+    footer 
+        min-height 30px
+        max-height 75px
+
