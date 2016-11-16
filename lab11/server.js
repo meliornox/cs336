@@ -59,7 +59,7 @@ app.post('/api/comments', function(req, res) {
 });
 
 var db;
-var PASSWORD = 'bjarne';
+var PASSWORD = '';
 var mongoURL = 'mongodb://cs336:' + PASSWORD + '@ds139567.mlab.com:39567/cs336';
 
 MongoClient.connect(mongoURL, function (err, dbConnection) {
