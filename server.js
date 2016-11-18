@@ -17,7 +17,7 @@ var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient
 var app = express();
 
-//var COMMENTS_FILE = path.join(__dirname, 'comments.json');
+var COMMENTS_FILE = path.join(__dirname, 'comments.json');
 
 app.set('port', (process.env.PORT || 3000));
 
