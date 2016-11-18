@@ -1,5 +1,5 @@
 import React from 'react';
-import Remarkable from 'remarkable';
+import $ from 'jquery';
 
 module.exports = React.createClass({
     getInitialState: function() {
