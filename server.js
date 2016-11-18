@@ -16,7 +16,6 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient
 var app = express();
-var db = 'mongodb://cs336:bjarne@ds151137.mlab.com:51137/cs336';
 
 //var COMMENTS_FILE = path.join(__dirname, 'comments.json');
 
