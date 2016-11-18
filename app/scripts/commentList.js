@@ -1,5 +1,6 @@
 import React from 'react';
 import Remarkable from 'remarkable';
+import $ from 'jquery';
 
 import Comment from './comment';
 
