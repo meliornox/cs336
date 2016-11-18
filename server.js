@@ -18,7 +18,7 @@ var MongoClient = require('mongodb').MongoClient;
 var app = express();
 
 var db;
-// var mongoPassword = bjarne;
+
 MongoClient.connect('mongodb://cs336:' + process.env.MONGO_PASSWORD + '@ds029297.mlab.com:29297/cs336', function (err, dbConnection) {
   if (err) throw err;
   db = dbConnection;
