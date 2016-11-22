@@ -1,4 +1,5 @@
 Our component structure will consist of
+	
 	MusicBox
 		SongList
 			Song
