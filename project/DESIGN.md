@@ -15,6 +15,5 @@ Our document structure will be
     "title": String,
     "artist": String,
     "lyrics": String,
-    "link": String,
-    "time": timestamp
+    "link": String
 }
