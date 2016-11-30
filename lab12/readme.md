@@ -7,5 +7,6 @@ This is a refactored implementation of the (old) Facebook ReactJS tutorial - the
 
 This application is upgraded to integrate React Router as specified in [lab exercise 12](https://cs.calvin.edu/courses/cs/336/kvlinden/12router/lab.html). 
 
-[Running app](https://jgb-cs336-lab12.herokuapp.com/) 
+[Running app](https://jgb-cs336-lab12.herokuapp.com/)
+
 [After lab13](https://jgb-cs336-lab13.herokuapp.com/)
