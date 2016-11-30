@@ -9,12 +9,11 @@ Our document structure will be
 
 {
     "_id": {
-        "$oid": String
+    "$oid": String
     },
     "id": integer,
     "title": String,
     "artist": String,
     "lyrics": String,
-    "link": String,
-    "time": timestamp
+    "link": String
 }
