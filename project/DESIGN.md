@@ -9,7 +9,7 @@ Our document structure will be
 
 	{
 	    "_id": {
-		"$oid": String
+	    	"$oid": String
 	    },
 	    "id": integer,
 	    "title": String,
