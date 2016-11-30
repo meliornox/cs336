@@ -14,6 +14,6 @@ Our document structure will be
 	    "id": integer,
 	    "title": String,
 	    "artist": String,
-    	    "lyrics": String,
+	    "lyrics": String,
 	    "link": String
 	}
