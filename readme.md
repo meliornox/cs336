@@ -1,8 +1,8 @@
-This is sample code for [CS 336](https://cs.calvin.edu/courses/cs/336), including:
+Keep calm and watch this space.
 
-* Code examples illustrating fundamental concepts in Web development,
-all based on Node/Express (units 1-7).
+This is a refactored implementation of the (old) Facebook ReactJS tutorial - the comment list:
 
-* A ReactJS application based on Facebook's React
-[Tutorial](https://facebook.github.io/react/docs/tutorial.html)
-and then refactored and enhanced as described in the lab exercises (units 8-14).
+     https://cs.calvin.edu/courses/cs/336/kvlinden/08react/backup/Tutorial_React.html
+     (formerly at https://facebook.github.io/react/docs/tutorial.html)
+
+This application is upgraded to integrate React Router as specified in lab exercise 13 (https://cs.calvin.edu/courses/cs/336/kvlinden/13flux/lab.html). For the running app, see
