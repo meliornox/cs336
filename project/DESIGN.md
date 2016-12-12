@@ -7,13 +7,13 @@ Our component structure will consist of
 
 Our document structure will be 
 
-{
-    "_id": {
-    "$oid": String
-    },
-    "id": integer,
-    "title": String,
-    "artist": String,
-    "lyrics": String,
-    "link": String
-}
+	{
+	    "_id": {
+	    	"$oid": String
+	    },
+	    "id": integer,
+	    "title": String,
+	    "artist": String,
+	    "lyrics": String,
+	    "link": String
+	}
